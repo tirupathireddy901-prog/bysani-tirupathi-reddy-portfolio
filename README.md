@@ -1,9 +1,13 @@
-# Bysani Tirupathi Reddy – NetSuite Functional Consultant portfolio
-React + TypeScript + Tailwind + Framer Motion + Lucide (Vite).
+# Bysani Tirupathi Reddy — NetSuite Functional Consultant Portfolio
 
-    npm install
-    npm run dev      # local
-    npm run build    # output in dist/ (relative base, works on GitHub Pages or any static host)
+Single-page static site (plain HTML/CSS/JS, no build step).
 
-Content lives in src/data.ts. Resume PDF: public/Bysani_Tirupathi_Reddy_Resume.pdf. Hero: public/hero.webp.
-The contact form opens the visitor's email app (mailto) since there is no backend.
+Files: `index.html`, `hero.jpg`, `mountain.jpg`, `portrait.jpg`, `resume.pdf` (updated resume; powers every Download/View Resume button).
+
+## Deploy (GitHub Pages)
+Upload all files to the repo root → Settings → Pages → Deploy from branch `main` / root.
+
+## Editing
+- Contact details, links and text are all in `index.html` (search for the email/phone).
+- Project / experience pop-up text lives in the `DATA` object in the `<script>` at the bottom.
+- To use a sharper hero picture, replace `hero.jpg` (landscape ~1100×880, subject on the left-centre).
